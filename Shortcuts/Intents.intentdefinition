@@ -286,7 +286,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>${position} ${files} with ${dateFormat}</string>
+					<string>${position} ${dateFormat} to names of ${files} </string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>fQDQ7z</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
@@ -297,7 +297,7 @@
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
-					<string>${position} ${files} with ${dateFormat}</string>
+					<string>${position} ${dateFormat} to names of ${files} </string>
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>9iCgY7</string>
 					<key>INIntentParameterCombinationUpdatesLinked</key>
