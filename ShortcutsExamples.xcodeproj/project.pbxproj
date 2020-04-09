@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C06992F243F11B200831945 /* renameFilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06992C243EA0E700831945 /* renameFilesHandler.swift */; };
 		8CAB19C42438B2D00002AE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB19C32438B2D00002AE8B /* AppDelegate.swift */; };
 		8CAB19C62438B2D00002AE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB19C52438B2D00002AE8B /* SceneDelegate.swift */; };
 		8CAB19C82438B2D00002AE8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAB19C72438B2D00002AE8B /* ContentView.swift */; };
@@ -45,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C06992C243EA0E700831945 /* renameFilesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renameFilesHandler.swift; sourceTree = "<group>"; };
+		8C069930243F2FDF00831945 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8CAB19C02438B2D00002AE8B /* ShortcutsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAB19C32438B2D00002AE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CAB19C52438B2D00002AE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		8CAB19B72438B2CF0002AE8B = {
 			isa = PBXGroup;
 			children = (
+				8C069930243F2FDF00831945 /* README.md */,
 				8CAB19C22438B2D00002AE8B /* ShortcutsExamples */,
 				8CAB19DC2438B3160002AE8B /* Shortcuts */,
 				8CAB19C12438B2D00002AE8B /* Products */,
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				8CAB19E92438DE330002AE8B /* makeUppercaseHandler.swift */,
+				8C06992C243EA0E700831945 /* renameFilesHandler.swift */,
 			);
 			path = Intents;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C06992F243F11B200831945 /* renameFilesHandler.swift in Sources */,
 				8CAB19E82438B5570002AE8B /* Intents.intentdefinition in Sources */,
 				8CAB19EA2438DE330002AE8B /* makeUppercaseHandler.swift in Sources */,
 				8CAB19DE2438B3160002AE8B /* IntentHandler.swift in Sources */,

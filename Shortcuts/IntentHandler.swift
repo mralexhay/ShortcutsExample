@@ -15,10 +15,11 @@ class IntentHandler: INExtension {
         switch intent {
         case is MakeUppercaseIntent:
             return MakeUppercaseIntentHandler()
+        case is RenameFilesIntent:
+            return RenameFilesIntentHandler()
         default:
             // No intents should be unhandled so we'll throw an error by default
             fatalError("No handler for this intent")
         }
     }
-    
 }
